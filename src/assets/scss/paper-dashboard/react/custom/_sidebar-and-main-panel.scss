@@ -123,7 +123,7 @@
 
             > a{
                 margin: 10px 15px 0;
-                color: $white-color;
+                color: #DFF8F2;
                 display: block;
                 text-decoration: none;
                 position: relative;
@@ -435,7 +435,7 @@
 .main-panel{
     position: relative;
     float: right;
-    background-color: #f6f9f8;
+    background-color: #DFF8F2;
 
     @include transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
 

@@ -885,16 +885,16 @@ const chartExample10 = {
 
 const chartExample11 = {
   data: {
-    labels: [1, 2, 3, 4, 5],
+    labels: [1, 2, 3],
     datasets: [
       {
         label: "Emails",
         pointRadius: 0,
         pointHoverRadius: 0,
-        backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "#6bd098" ],
+        backgroundColor: ["#ef8156", "#4acccd", "#feb201" ],
         borderWidth: 0,
         barPercentage: 1.6,
-        data: [80, 180, 330, 280, 780],
+        data: [33, 28, 78],
       },
     ],
   },
@@ -903,7 +903,7 @@ const chartExample11 = {
       display: false,
     },
     tooltips: {
-      enabled: false,
+      enabled: true,
     },
     scales: {
       yAxes: [
@@ -1022,6 +1022,347 @@ const chartExample12 = {
   },
 };
 
+// #########################################
+// // // used inside src/views/Charts.js
+// #########################################
+
+const chartExample13 = {
+  data: {
+    labels: [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+    ],
+    datasets: [
+      {
+        borderColor: "#6bd098",
+        backgroundColor: "#6bd098",
+        pointRadius: 0,
+        pointHoverRadius: 0,
+        borderWidth: 3,
+        barPercentage: 1.6,
+        data: [300000, 310000, 316000, 322000, 330000, 326000, 333000, 345000, 338000, 354000],
+      },
+
+    ],
+  },
+  options: {
+    legend: {
+      display: false,
+    },
+    tooltips: {
+      enabled: false,
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            fontColor: "#9f9f9f",
+            beginAtZero: false,
+            maxTicksLimit: 5,
+          },
+          gridLines: {
+            drawBorder: false,
+            zeroLineColor: "transparent",
+            color: "rgba(255,255,255,0.05)",
+          },
+        },
+      ],
+      xAxes: [
+        {
+          gridLines: {
+            drawBorder: false,
+            color: "rgba(255,255,255,0.1)",
+            zeroLineColor: "transparent",
+            display: false,
+          },
+          ticks: {
+            padding: 20,
+            fontColor: "#9f9f9f",
+          },
+        },
+      ],
+    },
+  },
+};
+
+// #########################################
+// // // used inside src/views/Charts.js
+// #########################################
+
+const chartExample14 = {
+  data: {
+    labels: [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+    ],
+    datasets: [
+
+      {
+        borderColor: "#51bcda",
+        backgroundColor: "#51bcda",
+        pointRadius: 0,
+        pointHoverRadius: 0,
+        borderWidth: 3,
+        barPercentage: 1.6,
+        data: [270000, 234000, 253000, 209000, 251000, 210300, 160231, 250000, 238000, 224000],
+      },
+    ],
+  },
+  options: {
+    legend: {
+      display: false,
+    },
+    tooltips: {
+      enabled: false,
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            fontColor: "#9f9f9f",
+            beginAtZero: false,
+            maxTicksLimit: 5,
+          },
+          gridLines: {
+            drawBorder: false,
+            zeroLineColor: "transparent",
+            color: "rgba(255,255,255,0.05)",
+          },
+        },
+      ],
+      xAxes: [
+        {
+          gridLines: {
+            drawBorder: false,
+            color: "rgba(255,255,255,0.1)",
+            zeroLineColor: "transparent",
+            display: false,
+          },
+          ticks: {
+            padding: 20,
+            fontColor: "#9f9f9f",
+          },
+        },
+      ],
+    },
+  },
+};
+
+const chartExample15 = {
+  data: {
+    labels: [1, 2, 3, 4],
+    datasets: [
+      {
+        label: "Emails",
+        pointRadius: 0,
+        pointHoverRadius: 0,
+        backgroundColor: ["#ef8156", "#4acccd", "#feb201", "#6cd097" ],
+        borderWidth: 0,
+        barPercentage: 1.6,
+        data: [33, 80, 60, 55],
+      },
+    ],
+  },
+  options: {
+    legend: {
+      display: false,
+    },
+    tooltips: {
+      enabled: true,
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            display: false,
+          },
+          gridLines: {
+            drawBorder: false,
+            zeroLineColor: "transparent",
+            color: "rgba(255,255,255,0.05)",
+          },
+        },
+      ],
+      xAxes: [
+        {
+          gridLines: {
+            drawBorder: false,
+            color: "rgba(255,255,255,0.1)",
+            zeroLineColor: "transparent",
+          },
+          ticks: {
+            display: false,
+          },
+        },
+      ],
+    },
+  },
+};
+
+const chartExample16 = {
+  data: {
+    labels: [1, 2, ],
+    datasets: [
+      {
+        label: "Emails",
+        pointRadius: 0,
+        pointHoverRadius: 0,
+        backgroundColor: ["#ef8156", "#4acccd" ],
+        borderWidth: 0,
+        barPercentage: 1.6,
+        data: [60, 55],
+      },
+    ],
+  },
+  options: {
+    legend: {
+      display: false,
+    },
+    tooltips: {
+      enabled: true,
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            display: false,
+          },
+          gridLines: {
+            drawBorder: false,
+            zeroLineColor: "transparent",
+            color: "rgba(255,255,255,0.05)",
+          },
+        },
+      ],
+      xAxes: [
+        {
+          gridLines: {
+            drawBorder: false,
+            color: "rgba(255,255,255,0.1)",
+            zeroLineColor: "transparent",
+          },
+          ticks: {
+            display: false,
+          },
+        },
+      ],
+    },
+  },
+};
+
+const chartExample17 = {
+  data: {
+    labels: [
+
+      1,
+      2,
+
+    ],
+    datasets: [
+      {
+        label: "Data",
+        borderColor: "#fcc468",
+        fill: true,
+        backgroundColor: "#fcc468",
+        hoverBorderColor: "#fcc468",
+        borderWidth: 8,
+        barPercentage: 0.4,
+        data: [
+          100,
+
+        ],
+      },
+      {
+        label: "Data",
+        borderColor: "#4cbdd7",
+        fill: true,
+        backgroundColor: "#4cbdd7",
+        hoverBorderColor: "#4cbdd7",
+        borderWidth: 8,
+        barPercentage: 0.4,
+        data: [
+          80,
+
+        ],
+      },
+    ],
+  },
+  options: {
+    tooltips: {
+      tooltipFillColor: "rgba(0,0,0,0.5)",
+      tooltipFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+      tooltipFontSize: 14,
+      tooltipFontStyle: "normal",
+      tooltipFontColor: "#fff",
+      tooltipTitleFontFamily:
+        "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+      tooltipTitleFontSize: 14,
+      tooltipTitleFontStyle: "bold",
+      tooltipTitleFontColor: "#fff",
+      tooltipYPadding: 6,
+      tooltipXPadding: 6,
+      tooltipCaretSize: 8,
+      tooltipCornerRadius: 6,
+      tooltipXOffset: 10,
+    },
+    legend: {
+      display: false,
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            fontColor: "#9f9f9f",
+            fontStyle: "bold",
+            beginAtZero: true,
+            maxTicksLimit: 5,
+            padding: 20,
+          },
+          gridLines: {
+            zeroLineColor: "transparent",
+            display: true,
+            drawBorder: false,
+            color: "#9f9f9f",
+          },
+        },
+      ],
+      xAxes: [
+        {
+          gridLines: {
+            zeroLineColor: "white",
+            display: false,
+
+            drawBorder: false,
+            color: "transparent",
+          },
+          ticks: {
+            padding: 20,
+            fontColor: "#9f9f9f",
+            fontStyle: "bold",
+          },
+        },
+      ],
+    },
+  },
+};
+
+
 module.exports = {
   // used for Charts and Dashboard views
   chartExample1,
@@ -1047,4 +1388,14 @@ module.exports = {
   chartExample11,
   // used for Charts view
   chartExample12,
+  // used for Charts view
+  chartExample13,
+  // used for Charts view
+  chartExample14,
+  // used for Charts view
+  chartExample15,
+  // used for Charts view
+  chartExample16,
+  // used for Charts view
+  chartExample17,
 };
