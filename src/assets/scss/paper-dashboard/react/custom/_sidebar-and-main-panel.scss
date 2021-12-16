@@ -324,11 +324,11 @@
     }
 
     &[data-color="white"]{
-      @include sidebar-color(#004852);
+      @include sidebar-color(#076168);
       @include sidebar-text-color($white-color);
     }
     &[data-color="brown"]{
-      @include sidebar-color(#004852);
+      @include sidebar-color(#5ADBBD);
       @include sidebar-text-color($white-color);
     }
 

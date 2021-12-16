@@ -4,7 +4,7 @@ import React from "react";
 import PerfectScrollbar from "perfect-scrollbar";
 import { Route, Switch } from "react-router-dom";
 
-import AdminNavbar from "components/Navbars/AdminNavbar2.js";
+import AdminNavbar from "components/Navbars/AdminNavbar.js";
 import Footer from "components/Footer/Footer.js";
 import Sidebar from "components/Sidebar/Sidebar.js";
 //import FixedPlugin from "components/FixedPlugin/FixedPlugin.js";
@@ -43,8 +43,8 @@ class Admin extends React.Component {
       this.refs.mainPanel.scrollTop = 0;
     }
   }
-  getRoutes = (routes2) => {
-    return routes2.map((prop, key) => {
+  getRoutes = (routes) => {
+    return routes.map((prop, key) => {
       if (prop.collapse) {
         return this.getRoutes(prop.views);
       }
